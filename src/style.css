@@ -17,7 +17,7 @@ body{
     font-weight: 700;
     align-items: center;
     position: relative;
-    max-width: 1440px;
+    width: 1440px;
     width:100%;
     line-height: 1;
     background:#000;
@@ -50,7 +50,7 @@ li{
     background-size: cover;
     height: 874px;
     display: inline-block;
-    padding: .5rem 2rem;
+    padding: 20px 110px;
     padding-bottom: 169px;
 }
 
@@ -60,14 +60,14 @@ li{
 .logo{
     width:245px;
     height: 75.5px;
-    float: left;
+
 }
 nav{
     width:526px;
     height: 28px;
     display: inline-block;
     margin-top: 34px;
-    float: right;
+    margin-left: 400px;
 }
 .portfolio{
 
@@ -83,12 +83,14 @@ h1{
     width: 100%;
     text-align: left;
     margin-top: 44px;
+    margin-left: 220px;
 }
 h4{
     color: #fff;
     font-weight: 600;
     font-size: 2rem;
     text-align: left;
+    margin-left: 220px;
 
 }
 
@@ -102,8 +104,6 @@ h2{
     padding: .5rem 1rem;
     display: inline-block;
     margin-top: 64px;
-    max-width: 1440px;
-    min-width: 360px;
 }
 .my_photo{
     width:193px;
@@ -127,30 +127,38 @@ p{
     margin-top: 76px;
     height: 474px;
     text-align: center;
+    width: 1440px;
 }
 .left{
     background: none;
     border: none;
     float: left;
-    margin-top: 180px;
+    margin-top: 310px;
+    cursor: pointer;
 }
 .right{
     background: none;
     border: none;
     float: right;
-    margin-top: 180px;
+    margin-top: 310px;
+    cursor: pointer;
 }
 .left_2{
     background: none;
     border: none;
     float: left;
-    margin-top: 180px;
+    margin-top: 310px;
+    cursor: pointer;
 }
 .right_2{
     background: none;
     border: none;
     float: right;
-    margin-top: 180px;
+    margin-top: 310px;
+    cursor: pointer;
+}
+.slider-container{
+    margin-left: 300px;
 }
 
 
@@ -158,11 +166,22 @@ p{
 .slider{
     overflow: hidden;
     width: 1103px;
+    margin-left: 180px;
 }
 
 .spisok{
     display: flex;
     transition: .2s;
+}
+h6{
+
+font-size: 40px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+
+
 }
 
 
@@ -185,6 +204,7 @@ p{
 .slider_2{
     overflow: hidden;
     width: 1103px;
+    margin-left: 180px;
 }
 .spisok_2{
     display: flex;
@@ -196,6 +216,7 @@ p{
 .progects{
     display: inline-block;
     height: 474px;
+    width: 1440px;
     margin-top: 100px;
     text-align: center;
 }
@@ -280,6 +301,9 @@ width: 600px;
     height: 658px;
     background:#311D4A;
     padding:32px 104px;
+    width: 1440px;
+    display: inline-block;
+
 }
 .name{
     background:#fff;
@@ -289,8 +313,9 @@ width: 600px;
 
 
 form{
-    float:left;
+
     margin-top: 35px;
+    float:left;
     margin-right: 329px;
 
 }
@@ -326,6 +351,7 @@ input{
     margin-top: 13px;
     border-radius: 40px;
 
+
 }
 .svz{
     font-family: Rubik;
@@ -334,7 +360,8 @@ input{
     line-height: 24px;
     letter-spacing: 0em;
     color: #fff;
-    text-align: left;
+
+
 
 }
 .icon{
