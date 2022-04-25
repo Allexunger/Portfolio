@@ -18,7 +18,6 @@ body{
     align-items: center;
     position: relative;
     max-width: 1440px;
-    min-width: 360px;
     width:100%;
     line-height: 1;
     background:#000;
