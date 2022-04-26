@@ -1,7 +1,7 @@
 $(document).ready(function() {
     let position = 0;
-    const slidesToShow = 4;
-    const slidesToScroll = .5;
+    const slidesToShow = 3;
+    const slidesToScroll = .375;
     const track = $('.spisok_2');
     const container = $('.slider_2');
     const item = $('.content_2');

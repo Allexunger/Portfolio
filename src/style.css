@@ -12,14 +12,13 @@ a{
 
 body{
     margin: 0 auto;
-    display: inline-block;
-    box-sizing: border-box;
     font-family: 'Roboto';
     font-weight: 700;
     align-items: center;
     line-height: 1;
     background:#000;
     max-width: 100%;
+    border: 1px solid #7C1CF7;
     width: 1440px;
     min-width: 480px;
 }
@@ -46,29 +45,17 @@ li{
 .header{
     background: url(../src/img/turned-gray-laptop-computer\ 1.png) center no-repeat;
     background-size: cover;
-    height: 874px;
-    display: inline-block;
+    height: auto;
     padding: 20px 110px;
     padding-bottom: 169px;
 }
-
-
-
-
-.logo{
-    width:245px;
-    height: 75.5px;
-
-}
 nav{
-    width:526px;
     height: 28px;
     display: inline-block;
     margin-top: 34px;
-    margin-left: 400px;
 }
 .portfolio{
-
+    width: 95%;
     margin-top: 268.5px;
 }
 h1, h2, h3, h4, h5, h6{
@@ -78,7 +65,6 @@ h1{
     font-weight: 600;
     font-size: 3rem;
     line-height: .5;
-    width: 100%;
     text-align: left;
     margin-top: 44px;
 }
@@ -97,90 +83,70 @@ h2{
 }
 .about{
     padding: .5rem 1rem;
-    display: inline-block;
     margin-top: 64px;
+    height:330px;
 }
 .my_photo{
-    width:193px;
-    height: 228px;
+
     border-radius: 40px;
     float:left;
 }
-.a_text{
-    width:999px;
-    margin-top: 60px;
-    margin-left: 250px;
-}
+
 p{
     font-size: 20px;
     font-weight: 400;
-    text-align: left;
     color: #fff;
+    text-align: left;
 }
-.skills{
-    display: inline-block;
-    margin-top: 76px;
-    height: 474px;
-    text-align: center;
 
-}
 .left{
     background: none;
     border: none;
-    float: left;
-    margin-top: 310px;
     cursor: pointer;
+
 }
 .right{
     background: none;
     border: none;
-    float: right;
-    margin-top: 310px;
     cursor: pointer;
+
 }
 .left_2{
     background: none;
     border: none;
-    float: left;
-    margin-top: 310px;
     cursor: pointer;
 }
 .right_2{
     background: none;
     border: none;
-    float: right;
-    margin-top: 310px;
     cursor: pointer;
 }
 
-
-
-
 .slider{
     overflow: hidden;
-    width: 1103px;
-
 }
 
 .spisok{
-    display: flex;
     transition: .2s;
+    width: 80%;
+    display: flex;
 }
 h6{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 
-font-size: 40px;
-font-weight: 600;
-line-height: 54px;
-letter-spacing: 0em;
-text-align: left;
-
-
+.content{
+    width:33%;
 }
 
 
 
 .card{
-    width: 250px;
+    width:90%;
     padding: 70px 0;
     border-radius: 40px;
     background: #311C4A;
@@ -196,34 +162,18 @@ text-align: left;
 }
 .slider_2{
     overflow: hidden;
-    width: 1103px;
-
 }
 .spisok_2{
     display: flex;
     transition: .2s;
 }
 
-
-
 .progects{
-    display: inline-block;
-    height: 474px;
     margin-top: 100px;
     text-align: center;
 }
 .slider-container{
     overflow: hidden;
-    width: 1103px;
-}
-
-.progect_card{
-    height: 344px;
-    display: inline-block;
-
-    margin-top: 44px;
-    text-align: left;
-
 }
 
 .slider-track{
@@ -232,22 +182,20 @@ text-align: left;
 }
 
 h5{
-
+text-align: left;
 font-size: 32px;
 font-weight: 600;
-margin-left: 534px;
 margin-top: 0;
 }
 
 .progect_photo{
     float: left;
+    margin-right: 100px;
 }
 
 .text_progect{
 font-size: 20px;
 font-weight: 400;
-margin-left: 534px;
-width: 600px;
 }
 
 
@@ -290,12 +238,11 @@ width: 600px;
 
 
 .call{
-    height: 658px;
+    height: 880px;
     background:#311D4A;
-    padding:32px 104px;
-    width: 1440px;
+    margin: 0 auto;
     display: inline-block;
-
+    width: 100%;
 }
 .name{
     background:#fff;
@@ -305,11 +252,7 @@ width: 600px;
 
 
 form{
-
     margin-top: 35px;
-    float:left;
-    margin-right: 329px;
-
 }
 
 input{
@@ -322,7 +265,6 @@ input{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
-    text-align: left;
     background:transparent;
     color: #fff;
     border: 1px solid #ccc;
@@ -360,11 +302,6 @@ input{
     vertical-align:sub;
 }
 .massenger{
-    float: left;
     margin-left: 20px;
     margin-top: 55px;
 }
-
-
-
-
