@@ -152,16 +152,14 @@ p{
     margin-top: 310px;
     cursor: pointer;
 }
-.slider-container{
-    margin-left: 300px;
-}
+
 
 
 
 .slider{
     overflow: hidden;
     width: 1103px;
-    margin-left: 60px;
+
 }
 
 .spisok{
@@ -199,7 +197,7 @@ text-align: left;
 .slider_2{
     overflow: hidden;
     width: 1103px;
-    margin-left: 60px;
+
 }
 .spisok_2{
     display: flex;
