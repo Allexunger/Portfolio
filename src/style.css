@@ -46,7 +46,6 @@ li{
     background: url(../src/img/turned-gray-laptop-computer\ 1.png) center no-repeat;
     background-size: cover;
     height: auto;
-    padding: 20px 110px;
     padding-bottom: 169px;
 }
 nav{
@@ -55,7 +54,7 @@ nav{
     margin-top: 34px;
 }
 .portfolio{
-    width: 95%;
+    width: 99%;
     margin-top: 268.5px;
 }
 h1, h2, h3, h4, h5, h6{
@@ -96,30 +95,33 @@ p{
     font-size: 20px;
     font-weight: 400;
     color: #fff;
-    text-align: left;
 }
 
 .left{
     background: none;
     border: none;
     cursor: pointer;
+    float: left;
 
 }
 .right{
     background: none;
     border: none;
     cursor: pointer;
+    float: right;
 
 }
 .left_2{
     background: none;
     border: none;
     cursor: pointer;
+    float: left;
 }
 .right_2{
     background: none;
     border: none;
     cursor: pointer;
+    float: right;
 }
 
 .slider{
@@ -180,22 +182,29 @@ h6{
     display: flex;
     transition: .2s;
 }
+.progect_card{
+    text-align: center;
+    text-align: left;
+    width: 100%;
+}
 
 h5{
-text-align: left;
 font-size: 32px;
 font-weight: 600;
 margin-top: 0;
+
+}
+.progect_content{
+display: inline-block;
+float: right;
 }
 
-.progect_photo{
-    float: left;
-    margin-right: 100px;
-}
+
 
 .text_progect{
 font-size: 20px;
 font-weight: 400;
+
 }
 
 
@@ -209,8 +218,6 @@ font-weight: 400;
     background: linear-gradient(217.8deg, #CE2035 10.61%, #7C1CF7 68.57%);
     border-radius: 40px;
     margin-top: 70px;
-    float: left;
-    margin-left: 34px;
     transition: .2s linear;
 }
 
@@ -220,7 +227,6 @@ font-weight: 400;
 
 .btn-prev{
     float: left;
-    margin-top: 154px;
     background:none;
     border: none;
     cursor: pointer;
@@ -228,7 +234,6 @@ font-weight: 400;
 
 .btn-next{
     float:right;
-    margin-top: 154px;
     background:none;
     border: none;
     cursor: pointer;
