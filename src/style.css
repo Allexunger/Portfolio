@@ -2,6 +2,7 @@ html{
     text-align: center;
 }
 
+
 *, *:before, *:after{
     box-sizing: border-box;
 }
@@ -10,24 +11,21 @@ a{
 }
 
 body{
-    margin: 0;
+    margin: 0 auto;
     display: inline-block;
     box-sizing: border-box;
     font-family: 'Roboto';
     font-weight: 700;
     align-items: center;
-    position: relative;
-    width: 1440px;
-    width:100%;
     line-height: 1;
     background:#000;
-
-
+    max-width: 100%;
+    width: 1440px;
+    min-width: 480px;
 }
 ul{
     list-style-type: none;
     padding:0;
-    justify-content: space-between;
 }
 li{
     display: inline-block;
@@ -124,7 +122,7 @@ p{
     margin-top: 76px;
     height: 474px;
     text-align: center;
-    width: 1440px;
+
 }
 .left{
     background: none;
@@ -213,7 +211,6 @@ text-align: left;
 .progects{
     display: inline-block;
     height: 474px;
-    width: 1440px;
     margin-top: 100px;
     text-align: center;
 }
