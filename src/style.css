@@ -18,13 +18,13 @@ body{
     line-height: 1;
     background:#000;
     max-width: 100%;
-    border: 1px solid #7C1CF7;
     width: 1440px;
     min-width: 480px;
 }
 ul{
     list-style-type: none;
     padding:0;
+    width: 480px;
 }
 li{
     display: inline-block;
@@ -52,6 +52,7 @@ nav{
     height: 28px;
     display: inline-block;
     margin-top: 34px;
+
 }
 .portfolio{
     width: 99%;
@@ -62,7 +63,7 @@ h1, h2, h3, h4, h5, h6{
 }
 h1{
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: .5;
     text-align: left;
     margin-top: 44px;
@@ -70,7 +71,7 @@ h1{
 h4{
     color: #fff;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
 }
 
@@ -82,7 +83,7 @@ h2{
 }
 .about{
     padding: .5rem 1rem;
-    margin-top: 64px;
+    margin-top: 20px;
     height:330px;
 }
 .my_photo{
@@ -130,8 +131,8 @@ p{
 
 .spisok{
     transition: .2s;
-    width: 80%;
     display: flex;
+    margin-left: 20px;
 }
 h6{
     font-size: 40px;
@@ -168,11 +169,13 @@ h6{
 .spisok_2{
     display: flex;
     transition: .2s;
+    margin-left: 20px;
 }
 
 .progects{
     margin-top: 100px;
-    text-align: center;
+    padding:.5rem 1rem;
+
 }
 .slider-container{
     overflow: hidden;
@@ -182,33 +185,18 @@ h6{
     display: flex;
     transition: .2s;
 }
-.progect_card{
-    text-align: center;
-    text-align: left;
-    width: 100%;
-}
 
 h5{
-font-size: 32px;
-font-weight: 600;
-margin-top: 0;
-
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.progect_content{
-display: inline-block;
-float: right;
-}
-
-
-
 .text_progect{
-font-size: 20px;
-font-weight: 400;
-
+    font-size: 20px;
+    font-weight: 400;
+    margin:0 0 30px 0;
 }
-
-
-
 .btn{
     font-family: Roboto;
     font-size: 24px;
@@ -248,6 +236,7 @@ font-weight: 400;
     margin: 0 auto;
     display: inline-block;
     width: 100%;
+    padding:.5rem 1rem;
 }
 .name{
     background:#fff;
