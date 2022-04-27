@@ -17,9 +17,10 @@ body{
     align-items: center;
     line-height: 1;
     background:#000;
-    max-width: 100%;
-    width: 1440px;
+    max-width: 1440px;
+    width: 1920px;
     min-width: 480px;
+
 }
 ul{
     list-style-type: none;
