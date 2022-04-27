@@ -132,7 +132,7 @@ p{
 .spisok{
     transition: .2s;
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 h6{
     font-size: 40px;
@@ -157,6 +157,7 @@ h6{
     transition: all .5s linear;
     border-radius: 40px;
     color:#fff;
+    font-size: 2vw;
 }
 
 
@@ -169,7 +170,7 @@ h6{
 .spisok_2{
     display: flex;
     transition: .2s;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .progects{
